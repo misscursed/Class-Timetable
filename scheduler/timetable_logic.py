@@ -339,8 +339,6 @@
 
 import os
 import pandas as pd
-from openpyxl import Workbook
-from openpyxl.utils.dataframe import dataframe_to_rows
 from ortools.sat.python import cp_model
 from datetime import datetime
 import logging
@@ -598,56 +596,53 @@ def generate_timetable_logic(post_data):
         for var in venue_vars:
             if solver.Value(venue_vars[var]) == 1:
                 logger.debug(f"Venue: {var}")
-        timetable = {day: {hour: {year: None for year in years} for hour in class_hours} for day in days}
-        
-        for subject, teacher, year, day, start_hour, end_hour, venue in fixed_lectures:
-            for hour in range(start_hour, end_hour):
-                if hour in class_hours:
-                    if solver.Value(timetable_vars[(day, hour, year, subject)]) == 1 and solver.Value(venue_vars[(day, hour, year, venue)]) == 1:
-                        timetable[day][hour][year] = (subject, teacher, venue)
 
+        timetable = {}
+        for year in years:
+            timetable[year] = []
+
+        # Add fixed lectures with full duration
+        for subject, teacher, year, day, start_hour, end_hour, venue in fixed_lectures:
+            logger.debug(f"Adding fixed lecture: {subject}, {teacher}, {year}, {day}, {start_hour}-{end_hour}, {venue}")
+            timetable[year].append({
+                'subject': subject,
+                'teacher': teacher,
+                'day': day,
+                'start': start_hour,
+                'end': end_hour,
+                'venue': venue
+            })
+
+        # Add scheduled lectures (non-fixed)
         for day in days:
             for hour in class_hours:
                 for year in years:
-                    if timetable[day][hour][year] is None:
-                        for subject in subjects:
-                            if solver.Value(timetable_vars[(day, hour, year, subject)]) == 1:
-                                for teacher, y, _ in subject_schedule.get(subject, []):
-                                    if y == year:
-                                        for venue in venues:
-                                            if solver.Value(venue_vars[(day, hour, year, venue)]) == 1:
-                                                timetable[day][hour][year] = (subject, teacher, venue)
-                                                break
-                                        break
-        
-        logger.debug("Timetable after population: %s", timetable)
-        dfs = {}
-        for year in years:
-            data = []
-            for day in days:
-                row = [day]
-                for hour in class_hours:
-                    if timetable[day][hour][year]:
-                        row.append(f"{timetable[day][hour][year][0]} ({timetable[day][hour][year][1]}) - {timetable[day][hour][year][2]}")
-                    else:
-                        row.append("")
-                data.append(row)
-            columns = ["Day"] + [f"{hour}:00" for hour in class_hours]
-            dfs[year] = pd.DataFrame(data, columns=columns)
+                    for subject in subjects:
+                        if solver.Value(timetable_vars[(day, hour, year, subject)]) == 1:
+                            for teacher, y, _ in subject_schedule.get(subject, []):
+                                if y == year:
+                                    for venue in venues:
+                                        if solver.Value(venue_vars[(day, hour, year, venue)]) == 1:
+                                            is_fixed = any(
+                                                fl[2] == year and fl[3] == day and fl[4] <= hour < fl[5]
+                                                for fl in fixed_lectures
+                                            )
+                                            if not is_fixed:
+                                                logger.debug(f"Adding scheduled lecture: {subject}, {teacher}, {year}, {day}, {hour}-{hour+1}, {venue}")
+                                                timetable[year].append({
+                                                    'subject': subject,
+                                                    'teacher': teacher,
+                                                    'day': day,
+                                                    'start': hour,
+                                                    'end': hour + 1,  # 1-hour slots for non-fixed
+                                                    'venue': venue
+                                                })
+                                            break
+                                    break
 
-        wb = Workbook()
-        for year, df in dfs.items():
-            ws = wb.create_sheet(title=year)
-            for r in dataframe_to_rows(df, index=False, header=True):
-                ws.append(r)
-        del wb["Sheet"]
+        logger.debug("Timetable before return: %s", timetable)
+        return timetable
 
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"timetable_with_breaks_{timestamp}.xlsx"
-        save_path = os.path.join(os.getcwd(), filename)
-        wb.save(save_path)
-        
-        return save_path, filename
     else:
         logger.error("No solution found. Solver status: %s", solver.StatusName(status))
         raise ValueError(f"No solution found. Solver status: {solver.StatusName(status)}")
