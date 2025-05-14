@@ -702,3 +702,462 @@
 2025-05-07 18:17:49,322 - DEBUG - Scheduled BIOLOGY - DAVE on Monday from 14 to 15 in LT-2 (distributed)
 2025-05-07 18:17:49,322 - DEBUG - Generated timetables: [[{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-1.11'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 9, 'end_hour': 10, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Friday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-2'}], [{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Friday', 'start_hour': 14, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 10, 'venue': 'LT-1.11'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 14, 'end_hour': 15, 'venue': 'LT-2'}]]
 2025-05-07 18:17:49,322 - DEBUG - Timetables generated: [[{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-1.11'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 9, 'end_hour': 10, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Friday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-2'}], [{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Friday', 'start_hour': 14, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 10, 'venue': 'LT-1.11'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 14, 'end_hour': 15, 'venue': 'LT-2'}]]
+2025-05-13 12:43:28,819 - DEBUG - GET request received, returning empty subject_teacher_pairs
+2025-05-13 12:43:28,848 - WARNING - Not Found: /manifest.json
+2025-05-13 12:43:28,849 - WARNING - Not Found: /favicon.ico
+2025-05-13 12:46:28,229 - DEBUG - POST request received with data: <QueryDict: {}>, files: <MultiValueDict: {'excelFile': [<InMemoryUploadedFile: Constraints_file.xlsx (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)>]}>
+2025-05-13 12:46:28,229 - DEBUG - Received file: Constraints_file.xlsx
+2025-05-13 12:46:30,033 - DEBUG - Available sheets: ['Subjects', 'Venues', 'Fixed Lectures', 'Teacher Availability', 'Venue Availability']
+2025-05-13 12:46:30,056 - DEBUG - Subjects sheet columns: ['Subject', 'Teacher', 'Year', 'Hours']
+2025-05-13 12:46:30,069 - DEBUG - Subjects sheet data: {'Subject': {0: 'MATH', 1: 'PHYSICS', 2: 'CHEMISTRY', 3: 'BIOLOGY'}, 'Teacher': {0: 'BOB', 1: 'ALICE', 2: 'CAROL', 3: 'DAVE'}, 'Year': {0: '1st Year', 1: '1st Year', 2: '1st Year', 3: '1st Year'}, 'Hours': {0: 3, 1: 4, 2: 2, 3: 2}}
+2025-05-13 12:46:30,076 - DEBUG - Subject-teacher pairs extracted: ['MATH - BOB', 'PHYSICS - ALICE', 'CHEMISTRY - CAROL', 'BIOLOGY - DAVE']
+2025-05-13 12:46:30,076 - DEBUG - Subjects only for frontend: ['MATH', 'PHYSICS', 'CHEMISTRY', 'BIOLOGY']
+2025-05-13 12:46:48,137 - DEBUG - POST request received with data: <QueryDict: {'subjects_list': ['[{"subject_teacher":"MATH - BOB","hours":"4","year":"1st Year","schedule_type":"all_together"},{"subject_teacher":"PHYSICS - ALICE","hours":"3","year":"1st Year","schedule_type":"distributed"},{"subject_teacher":"CHEMISTRY - CAROL","hours":"4","year":"1st Year","schedule_type":"distributed"},{"subject_teacher":"BIOLOGY - DAVE","hours":"2","year":"1st Year","schedule_type":"distributed"}]']}>, files: <MultiValueDict: {'excelFile': [<InMemoryUploadedFile: Constraints_file.xlsx (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)>]}>
+2025-05-13 12:46:48,137 - DEBUG - Generating timetable with subjects_list: [{"subject_teacher":"MATH - BOB","hours":"4","year":"1st Year","schedule_type":"all_together"},{"subject_teacher":"PHYSICS - ALICE","hours":"3","year":"1st Year","schedule_type":"distributed"},{"subject_teacher":"CHEMISTRY - CAROL","hours":"4","year":"1st Year","schedule_type":"distributed"},{"subject_teacher":"BIOLOGY - DAVE","hours":"2","year":"1st Year","schedule_type":"distributed"}]
+2025-05-13 12:46:48,137 - DEBUG - Excel file provided for timetable generation: Constraints_file.xlsx
+2025-05-13 12:46:48,137 - DEBUG - Starting timetable generation
+2025-05-13 12:46:48,143 - DEBUG - Excel file sheets: ['Subjects', 'Venues', 'Fixed Lectures', 'Teacher Availability', 'Venue Availability']
+2025-05-13 12:46:48,150 - DEBUG - Subjects data from Excel: [{'Subject': 'MATH', 'Teacher': 'BOB', 'Year': '1st Year', 'Hours': 3}, {'Subject': 'PHYSICS', 'Teacher': 'ALICE', 'Year': '1st Year', 'Hours': 4}, {'Subject': 'CHEMISTRY', 'Teacher': 'CAROL', 'Year': '1st Year', 'Hours': 2}, {'Subject': 'BIOLOGY', 'Teacher': 'DAVE', 'Year': '1st Year', 'Hours': 2}]
+2025-05-13 12:46:48,151 - DEBUG - Venues from Excel: ['LT-1.11', 'LT-2']
+2025-05-13 12:46:48,151 - DEBUG - Fixed lectures from Excel: [{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}]
+2025-05-13 12:46:48,151 - DEBUG - Teacher availability from Excel: {'ALICE': {'Monday': [10, 11, 15, 16, 17], 'Tuesday': [10, 11, 15, 16, 17], 'Wednesday': [10, 11, 15, 16, 17], 'Thursday': [10, 11, 15, 16, 17], 'Friday': [10, 11, 15, 16, 17]}, 'BOB': {'Monday': [8, 9, 10, 13, 14, 15], 'Tuesday': [8, 9, 10, 13, 14, 15], 'Wednesday': [8, 9, 10, 13, 14, 15], 'Thursday': [8, 9, 10, 13, 14, 15], 'Friday': [8, 9, 10, 13, 14, 15]}, 'CAROL': {'Monday': [9, 10, 13, 14, 15, 16, 17], 'Tuesday': [9, 10, 13, 14, 15, 16, 17], 'Wednesday': [9, 10, 13, 14, 15, 16, 17], 'Thursday': [9, 10, 13, 14, 15, 16, 17], 'Friday': [9, 10, 13, 14, 15, 16, 17]}, 'DAVE': {'Monday': [11, 14, 15, 16, 17], 'Tuesday': [11, 14, 15, 16, 17], 'Wednesday': [11, 14, 15, 16, 17], 'Thursday': [11, 14, 15, 16, 17], 'Friday': [11, 14, 15, 16, 17]}}
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,151 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,152 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,153 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,154 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,154 - DEBUG - Scheduled PHYSICS - ALICE on Monday from 10 to 12 in LT-1.11 (distributed)
+2025-05-13 12:46:48,154 - DEBUG - Scheduled PHYSICS - ALICE on Tuesday from 15 to 16 in LT-1.11 (distributed)
+2025-05-13 12:46:48,155 - DEBUG - Scheduled CHEMISTRY - CAROL on Tuesday from 17 to 18 in LT-1.11 (distributed)
+2025-05-13 12:46:48,155 - DEBUG - Scheduled CHEMISTRY - CAROL on Wednesday from 14 to 16 in LT-2 (distributed)
+2025-05-13 12:46:48,155 - DEBUG - Scheduled CHEMISTRY - CAROL on Monday from 17 to 18 in LT-2 (distributed)
+2025-05-13 12:46:48,155 - DEBUG - Scheduled BIOLOGY - DAVE on Tuesday from 16 to 17 in LT-2 (distributed)
+2025-05-13 12:46:48,155 - DEBUG - Scheduled BIOLOGY - DAVE on Monday from 11 to 12 in LT-2 (distributed)
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,155 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,156 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:48,157 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:48,157 - DEBUG - Scheduled PHYSICS - ALICE on Monday from 11 to 12 in LT-2 (distributed)
+2025-05-13 12:46:48,157 - DEBUG - Scheduled PHYSICS - ALICE on Wednesday from 15 to 17 in LT-1.11 (distributed)
+2025-05-13 12:46:48,157 - DEBUG - Scheduled CHEMISTRY - CAROL on Friday from 17 to 18 in LT-1.11 (distributed)
+2025-05-13 12:46:48,157 - DEBUG - Scheduled CHEMISTRY - CAROL on Monday from 14 to 16 in LT-1.11 (distributed)
+2025-05-13 12:46:48,157 - DEBUG - Scheduled CHEMISTRY - CAROL on Tuesday from 13 to 14 in LT-2 (distributed)
+2025-05-13 12:46:48,157 - DEBUG - No possible start hours for BIOLOGY on Wednesday for duration 2
+2025-05-13 12:46:48,157 - DEBUG - Scheduled BIOLOGY - DAVE on Thursday from 14 to 16 in LT-2 (distributed)
+2025-05-13 12:46:48,158 - DEBUG - Generated timetables: [[{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 10, 'end_hour': 12, 'venue': 'LT-1.11'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 17, 'end_hour': 18, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 17, 'end_hour': 18, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-2'}], [{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 15, 'end_hour': 17, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Friday', 'start_hour': 17, 'end_hour': 18, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 14, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-2'}]]
+2025-05-13 12:46:48,158 - DEBUG - Timetables generated: [[{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 10, 'end_hour': 12, 'venue': 'LT-1.11'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 17, 'end_hour': 18, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 17, 'end_hour': 18, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-2'}], [{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 15, 'end_hour': 17, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Friday', 'start_hour': 17, 'end_hour': 18, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-1.11'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 14, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-2'}]]
+2025-05-13 12:46:58,605 - DEBUG - POST request received with data: <QueryDict: {'subjects_list': ['[{"subject_teacher":"MATH - BOB","hours":"4","year":"1st Year","schedule_type":"all_together"},{"subject_teacher":"PHYSICS - ALICE","hours":"3","year":"1st Year","schedule_type":"distributed"},{"subject_teacher":"CHEMISTRY - CAROL","hours":"4","year":"1st Year","schedule_type":"distributed"},{"subject_teacher":"BIOLOGY - DAVE","hours":"2","year":"1st Year","schedule_type":"distributed"}]']}>, files: <MultiValueDict: {'excelFile': [<InMemoryUploadedFile: Constraints_file.xlsx (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)>]}>
+2025-05-13 12:46:58,605 - DEBUG - Generating timetable with subjects_list: [{"subject_teacher":"MATH - BOB","hours":"4","year":"1st Year","schedule_type":"all_together"},{"subject_teacher":"PHYSICS - ALICE","hours":"3","year":"1st Year","schedule_type":"distributed"},{"subject_teacher":"CHEMISTRY - CAROL","hours":"4","year":"1st Year","schedule_type":"distributed"},{"subject_teacher":"BIOLOGY - DAVE","hours":"2","year":"1st Year","schedule_type":"distributed"}]
+2025-05-13 12:46:58,605 - DEBUG - Excel file provided for timetable generation: Constraints_file.xlsx
+2025-05-13 12:46:58,605 - DEBUG - Starting timetable generation
+2025-05-13 12:46:58,609 - DEBUG - Excel file sheets: ['Subjects', 'Venues', 'Fixed Lectures', 'Teacher Availability', 'Venue Availability']
+2025-05-13 12:46:58,613 - DEBUG - Subjects data from Excel: [{'Subject': 'MATH', 'Teacher': 'BOB', 'Year': '1st Year', 'Hours': 3}, {'Subject': 'PHYSICS', 'Teacher': 'ALICE', 'Year': '1st Year', 'Hours': 4}, {'Subject': 'CHEMISTRY', 'Teacher': 'CAROL', 'Year': '1st Year', 'Hours': 2}, {'Subject': 'BIOLOGY', 'Teacher': 'DAVE', 'Year': '1st Year', 'Hours': 2}]
+2025-05-13 12:46:58,613 - DEBUG - Venues from Excel: ['LT-1.11', 'LT-2']
+2025-05-13 12:46:58,613 - DEBUG - Fixed lectures from Excel: [{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}]
+2025-05-13 12:46:58,614 - DEBUG - Teacher availability from Excel: {'ALICE': {'Monday': [10, 11, 15, 16, 17], 'Tuesday': [10, 11, 15, 16, 17], 'Wednesday': [10, 11, 15, 16, 17], 'Thursday': [10, 11, 15, 16, 17], 'Friday': [10, 11, 15, 16, 17]}, 'BOB': {'Monday': [8, 9, 10, 13, 14, 15], 'Tuesday': [8, 9, 10, 13, 14, 15], 'Wednesday': [8, 9, 10, 13, 14, 15], 'Thursday': [8, 9, 10, 13, 14, 15], 'Friday': [8, 9, 10, 13, 14, 15]}, 'CAROL': {'Monday': [9, 10, 13, 14, 15, 16, 17], 'Tuesday': [9, 10, 13, 14, 15, 16, 17], 'Wednesday': [9, 10, 13, 14, 15, 16, 17], 'Thursday': [9, 10, 13, 14, 15, 16, 17], 'Friday': [9, 10, 13, 14, 15, 16, 17]}, 'DAVE': {'Monday': [11, 14, 15, 16, 17], 'Tuesday': [11, 14, 15, 16, 17], 'Wednesday': [11, 14, 15, 16, 17], 'Thursday': [11, 14, 15, 16, 17], 'Friday': [11, 14, 15, 16, 17]}}
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,614 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,615 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,616 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,617 - DEBUG - Scheduled PHYSICS - ALICE on Thursday from 10 to 12 in LT-2 (distributed)
+2025-05-13 12:46:58,617 - DEBUG - Scheduled PHYSICS - ALICE on Friday from 17 to 18 in LT-2 (distributed)
+2025-05-13 12:46:58,617 - DEBUG - Scheduled CHEMISTRY - CAROL on Monday from 14 to 16 in LT-2 (distributed)
+2025-05-13 12:46:58,617 - DEBUG - Scheduled CHEMISTRY - CAROL on Wednesday from 9 to 11 in LT-2 (distributed)
+2025-05-13 12:46:58,617 - DEBUG - Scheduled BIOLOGY - DAVE on Tuesday from 11 to 12 in LT-2 (distributed)
+2025-05-13 12:46:58,617 - DEBUG - Scheduled BIOLOGY - DAVE on Monday from 16 to 17 in LT-2 (distributed)
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,617 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,618 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,619 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Friday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Thursday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Tuesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Monday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,620 - DEBUG - Failed to find consecutive slot for MATH - BOB on Wednesday
+2025-05-13 12:46:58,620 - DEBUG - Scheduled PHYSICS - ALICE on Friday from 11 to 12 in LT-1.11 (distributed)
+2025-05-13 12:46:58,620 - DEBUG - Scheduled PHYSICS - ALICE on Thursday from 15 to 17 in LT-2 (distributed)
+2025-05-13 12:46:58,620 - DEBUG - Scheduled CHEMISTRY - CAROL on Wednesday from 16 to 18 in LT-2 (distributed)
+2025-05-13 12:46:58,620 - DEBUG - Scheduled CHEMISTRY - CAROL on Tuesday from 14 to 15 in LT-2 (distributed)
+2025-05-13 12:46:58,620 - DEBUG - Scheduled CHEMISTRY - CAROL on Thursday from 13 to 14 in LT-1.11 (distributed)
+2025-05-13 12:46:58,620 - DEBUG - Scheduled BIOLOGY - DAVE on Wednesday from 15 to 16 in LT-2 (distributed)
+2025-05-13 12:46:58,620 - DEBUG - Scheduled BIOLOGY - DAVE on Friday from 16 to 17 in LT-1.11 (distributed)
+2025-05-13 12:46:58,620 - DEBUG - Generated timetables: [[{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 10, 'end_hour': 12, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 17, 'end_hour': 18, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}], [{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-1.11'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 15, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 16, 'end_hour': 18, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 14, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 13, 'end_hour': 14, 'venue': 'LT-1.11'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-1.11'}]]
+2025-05-13 12:46:58,621 - DEBUG - Timetables generated: [[{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 10, 'end_hour': 12, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 17, 'end_hour': 18, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 14, 'end_hour': 16, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Monday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-2'}], [{'subject': 'HL', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Monday', 'start_hour': 9, 'end_hour': 11, 'venue': 'LT-1.11'}, {'subject': 'OE', 'teacher': 'BOB', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 13, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 11, 'end_hour': 12, 'venue': 'LT-1.11'}, {'subject': 'PHYSICS', 'teacher': 'ALICE', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 15, 'end_hour': 17, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 16, 'end_hour': 18, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Tuesday', 'start_hour': 14, 'end_hour': 15, 'venue': 'LT-2'}, {'subject': 'CHEMISTRY', 'teacher': 'CAROL', 'year': '1st Year', 'day': 'Thursday', 'start_hour': 13, 'end_hour': 14, 'venue': 'LT-1.11'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Wednesday', 'start_hour': 15, 'end_hour': 16, 'venue': 'LT-2'}, {'subject': 'BIOLOGY', 'teacher': 'DAVE', 'year': '1st Year', 'day': 'Friday', 'start_hour': 16, 'end_hour': 17, 'venue': 'LT-1.11'}]]
